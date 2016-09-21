@@ -55,6 +55,6 @@ defmodule AliyunDirectMail.Client do
     sign = generate_sign("GET", http_params)
     query = (http_params ++ [Signature: sign]) |> URI.encode_query
     url = @api <> "?" <> query
-    res = HTTPoison.get(url)
+    HTTPoison.get(url)
   end
 end
