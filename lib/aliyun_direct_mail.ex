@@ -1,0 +1,2 @@
+defmodule AliyunDirectMail do
+end
