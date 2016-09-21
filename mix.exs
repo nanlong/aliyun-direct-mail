@@ -29,7 +29,7 @@ defmodule AliyunDirectMail.Mixfile do
   defp deps do
     [
       {:uuid, "~> 1.1"},
-      {:httpoison, "~> 0.9.0"},
+      {:httpoison, "~> 0.8.3"},
     ]
   end
 end
