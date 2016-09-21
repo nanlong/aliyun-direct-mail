@@ -16,7 +16,6 @@
 
     ```elixir
     config :aliyun_direct_mail, AliyunDirectMail,
-
       access_key_id: "xxxxxxxxxxxxxxxx",
       access_key_secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     ```
