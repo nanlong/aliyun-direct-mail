@@ -30,3 +30,8 @@
       html_body: "This is a test email."
     )
     ```
+
+## Todo
+- [x] 邮件单一发送接口 AliyunDirectMail.Mail.single_send
+- [ ] 邮件批量发信接口 AliyunDirectMail.Mail.batch_send
+- [ ] 短信单一发送接口 AliyunDirectMail.Sms.single_send
