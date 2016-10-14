@@ -12,7 +12,15 @@
     end
     ```
 
-  2. 添加配置
+  2. 添加 `aliyun_direct_mail` 到你的应用:
+
+    ```elixir
+    def application do
+      [applications: [:aliyun_direct_mail]]
+    end
+    ```
+
+  3. 配置
 
     ```elixir
     config :aliyun_direct_mail, AliyunDirectMail,
@@ -20,7 +28,7 @@
       access_key_secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     ```
 
-  3. 发个邮件测试一下吧
+  4. 发个邮件测试一下吧
 
     ```elixir
     AliyunDirectMail.Mail.single_send(
