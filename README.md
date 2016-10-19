@@ -4,15 +4,15 @@
 
 ## 安装
 
-  1. 添加 `aliyun_direct_mail` 到 `mix.exs`:
+  1. 添加 `aliyun-direct-mail` 到 `mix.exs`:
 
     ```elixir
     def deps do
-      [{:aliyun_direct_mail, github: "nanlong/aliyun_direct_mail"}]
+      [{:aliyun_direct_mail, github: "nanlong/aliyun-direct-mail"}]
     end
     ```
 
-  2. 添加 `aliyun_direct_mail` 到你的应用:
+  2. 添加 `aliyun-direct-mail` 到你的应用:
 
     ```elixir
     def application do
